@@ -36,11 +36,11 @@ REGION_COLORS = {
 }
 
 _FONT_DIR = "/usr/share/fonts/truetype"
-SERIF_B = _FONT_DIR + "/liberation/LiberationSerif-Bold.ttf"
-SERIF_R = _FONT_DIR + "/liberation/LiberationSerif-Regular.ttf"
-SERIF_I = _FONT_DIR + "/liberation/LiberationSerif-Italic.ttf"
-SANS_B = _FONT_DIR + "/liberation/LiberationSans-Bold.ttf"
-SANS_R = _FONT_DIR + "/liberation/LiberationSans-Regular.ttf"
+SERIF_B = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+SERIF_R = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIF_I = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SANS_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+SANS_R = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 
 def font(path, size):
