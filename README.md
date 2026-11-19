@@ -4,13 +4,15 @@
 [![rank](https://make.fun/badge/news-image-20261118/qmyCode/nov18-world-in-one-picture/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 [![reward](https://make.fun/badge/news-image-20261118/qmyCode/nov18-world-in-one-picture/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-One image that sums up the world's news of Wednesday 18 November 2026 — a drawn front page of the day's biggest stories: three large illustrated lead stories and nine more main stories with region and topic tags, a world map with numbered pins for the twelve main stories, an "also today" tier covering six continents, a "Day in Numbers" strip of the day's hardest figures, and a quote of the day. Every story was verified against wire and broadcaster reporting of 18 November 2026 (Reuters, AP, AFP, BBC, Al Jazeera and others); disputed claims are attributed in the image itself. The poster is drawn programmatically with Pillow (draw.py); the entry program main.py is standard-library only and copies the committed entry.png byte-for-byte to /output/entry.png, verifying its size and signature.
+"The World on Wednesday" — the whole news day of Wednesday 18 November 2026 on one 1024×1024 front page: 48 verified stories across six continents, from the US–Iran exchange of fire over Bahrain and Anthropic's record $83 IPO pricing to Ukraine's second-day strike on the Kerch Bridge. Three illustrated lead stories, eleven medium mains, a Day in Numbers strip, a pin map of the mains, and 34 one-line briefs — covering the full day, Asia-Pacific, Europe and the Americas. Every figure is drawn from reputable reporting of the day (Reuters, AP, BBC, NASA, UN OHCHR, USGS, IMD, UEFA); contested claims are attributed in the text.
 
 ## Run it
 
 ```sh
 python3 main.py
 ```
+
+Requires Python 3 and Pillow (`pip install Pillow`). Writes `entry.png` next to `main.py`.
 
 ---
 
